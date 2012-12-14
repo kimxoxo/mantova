@@ -35,7 +35,7 @@ Refinery::Images.configure do |config|
   # Configure Dragonfly
   # This is where in the middleware stack to insert the Dragonfly middleware
   # config.dragonfly_insert_before = "ActionDispatch::Callbacks"
-  # config.dragonfly_secret = "a10425495795a54bf8fbff522282dc160ad89f8b0e603551"
+  # config.dragonfly_secret = "00513cbd7e4ca5b45530fc7883289ba3e24cd532c9ed122e"
   # If you decide to trust file extensions replace :ext below with :format
   # config.dragonfly_url_format = "/system/images/:job/:basename.:ext"
   # config.datastore_root_path = "/Users/TIWAY/rails_projects/mantova/public/system/refinery/images"

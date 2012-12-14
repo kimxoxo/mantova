@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'bootstrap-sass'
-gem 'less-rails-bootstrap'
-gem 'therubyracer'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -41,7 +39,6 @@ gem 'jquery-rails', '~> 2.0.0'
 # To use debugger
 # gem 'debugger'
 
-
 # Refinery CMS
 gem 'refinerycms', '~> 2.0.0'
 
@@ -51,3 +48,12 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
+
+# The Heroku gem allows you to interface with Heroku's API
+gem 'heroku'
+
+# Fog allows you to use S3 assets (added for Heroku)
+gem 'fog'
+
+# Postgres support (added for Heroku)
+gem 'pg'

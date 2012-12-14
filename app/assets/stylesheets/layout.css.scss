@@ -1,6 +1,12 @@
 @import "bootstrap";
 
 
+#page {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
 
 #menu ul /*Container ul*/
 {
@@ -47,4 +53,10 @@ padding:0px;
 display:inline-block;
 padding:3px 10px;
 color:green;
+}
+
+
+footer {
+	padding-left:10px;
+	padding-right:10px;
 }
