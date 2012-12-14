@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Mantova::Application.config.secret_token = '2733ef006fcf353b3a855ee935e096b8dee2eda076dcff3c9db540d95df23fafc6a03947abd2e6a62452339472208f5743387146678db9f83c61b3f0f2b91269'
+Mantova::Application.config.secret_token = '23e8c302d4d0aa3ee24300a4a63848d5bb77079e8d57b6835323a755d08ba31f14ba75fd7a3e4eb036eaf1f558b43b32d7b5aabbc255e061211b653ee964b034'
