@@ -12,10 +12,11 @@
       <section id="page" class="">
         <%= yield %>
       </section>
+      <footer class="">
+        <%= render '/refinery/footer' -%>
+      </footer>  
     </div>
-    <footer class="">
-      <%= render '/refinery/footer' -%>
-    </footer>   
+ 
     <%= render '/refinery/javascripts' %>
   </body>
 </html>
