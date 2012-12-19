@@ -41,8 +41,8 @@ html, body {
 
 #page {
 	margin-top: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	width: $global_width;
 	background-image: url('pattern.png');
 	background-color: white;
@@ -60,12 +60,16 @@ html, body {
 
   	h2 {
   		//margin-top: 40px;
-  		font-size: 16px;
+  		font-size: 14px;
   	}
 
   	h3 {
-  		//margin-top: 40px;
+  		padding-top: 30px;
   		font-size: 14px;
+  		
+  		img {
+	  		padding-top: 30px;
+  		}
   	}
 
   	p {
