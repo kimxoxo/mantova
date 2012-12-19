@@ -1,15 +1,12 @@
 <div class="navbar-inner">
-	<div class="container">
-
-		<h1 id='logo'>
-		  English Language
-		  Club Mantova
-		  <% link_to image_tag("logo1.png", :size => "150x60"), refinery.root_path %>
-		  <%= link_to image_tag("logo2.png", :size => "60x60"), refinery.root_path, :style => "padding-left:10px; padding-top:20px; " %>
-		</h1>
+	<div class="container" style="position:relative; ">
+		<div id="logo" class="pull-left">
+		  	<%= link_to image_tag("logo1.png", :size => "185x74"), refinery.root_path %>
+		  	<%= link_to image_tag("logo2.png", :size => "45x45"), refinery.root_path, :style => "position:absolute; right:0; bottom:0; " %>
+		</div>
 		
-		<div class="pull-right">
-		<%= render(:partial => "/refinery/menu", :locals => {
+		<div id="menu_container" class="pull-right" class="bt">
+		  	<%= render(:partial => "/refinery/menu", :locals => {
 	             :dom_id => 'menu',
 	             :css => 'menu'
 	           }) %>

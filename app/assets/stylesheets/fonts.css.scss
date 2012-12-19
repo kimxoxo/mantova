@@ -1,0 +1,99 @@
+/* just creat a folder "fonts" inside ASSETS and add the files, withou the character "-" */
+/* #no need to add the fonts folder to assets in application.rb */
+
+
+@font-face {
+    font-family: 'PTSansNarrowRegular';
+    src: url('PTN57Fwebfont.eot');
+    src: url('PTN57Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTN57Fwebfont.woff') format('woff'),
+         url('PTN57Fwebfont.ttf') format('truetype'),
+         url('PTN57Fwebfont.svg#PTSansNarrowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansCaptionBold';
+    src: url('PTC75Fwebfont.eot');
+    src: url('PTC75Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTC75Fwebfont.woff') format('woff'),
+         url('PTC75Fwebfont.ttf') format('truetype'),
+         url('PTC75Fwebfont.svg#PTSansCaptionBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansCaptionRegular';
+    src: url('PTC55Fwebfont.eot');
+    src: url('PTC55Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTC55Fwebfont.woff') format('woff'),
+         url('PTC55Fwebfont.ttf') format('truetype'),
+         url('PTC55Fwebfont.svg#PTSansCaptionRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansBoldItalic';
+    src: url('PTS76Fwebfont.eot');
+    src: url('PTS76Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTS76Fwebfont.woff') format('woff'),
+         url('PTS76Fwebfont.ttf') format('truetype'),
+         url('PTS76Fwebfont.svg#PTSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('PTS75Fwebfont.eot');
+    src: url('PTS75Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTS75Fwebfont.woff') format('woff'),
+         url('PTS75Fwebfont.ttf') format('truetype'),
+         url('PTS75Fwebfont.svg#PTSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansItalic';
+    src: url('PTS56Fwebfont.eot');
+    src: url('PTS56Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTS56Fwebfont.woff') format('woff'),
+         url('PTS56Fwebfont.ttf') format('truetype'),
+         url('PTS56Fwebfont.svg#PTSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('PTS55Fwebfont.eot');
+    src: url('PTS55Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTS55Fwebfont.woff') format('woff'),
+         url('PTS55Fwebfont.ttf') format('truetype'),
+         url('PTS55Fwebfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansNarrowBold';
+    src: url('PTN77Fwebfont.eot');
+    src: url('PTN77Fwebfont.eot?#iefix') format('embedded-opentype'),
+         url('PTN77Fwebfont.woff') format('woff'),
+         url('PTN77Fwebfont.ttf') format('truetype'),
+         url('PTN77Fwebfont.svg#PTSansNarrowBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
