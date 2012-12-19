@@ -25,18 +25,32 @@ $global_width: 1000px;
 }
 
 
+.rounded-corners {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
+}
+
+
 html, body {
-  	//height: 100%;
 	font-family: 'PTSansCaptionRegular';
-	background-image: url('pattern.png');
+	background-image: url('pattern2.png');
 }
 
 
 #page {
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 	width: $global_width;
-	min-height: 100%;
+	background-image: url('pattern.png');
+	background-color: white;
 	margin-left: auto;
   	margin-right: auto;
+  	border: 1px solid #babab3;
+
+
 
   	h1 {
   		margin-top: 40px;
@@ -72,7 +86,7 @@ html, body {
 
 		#logo {
 			position: relative;
-			padding-top: 10px;
+			padding-top: 40px;
 			width: 240px;
 		}
 
@@ -139,13 +153,14 @@ html, body {
 
 footer {
 	width:$global_width;
+	margin-top:10px;
 	margin-left: auto;
   	margin-right: auto;
-  	border-top: 1px solid #eeeeee;
+  	//border-top: 1px solid #eeeeee;
   	bottom: 0;
 
   	p {
-  		border-top: 1px solid #fff;
+  		//border-top: 1px solid #fff;
   		padding-top:10px;
   		font-size:11px;
   	}
