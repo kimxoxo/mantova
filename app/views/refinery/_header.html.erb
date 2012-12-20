@@ -1,11 +1,11 @@
 <div class="navbar-inner">
-	<div class="container" style="position:relative; ">
-		<div id="logo" class="pull-left">
+	<div class="container bt" style="position:relative; ">
+		<div id="logo" class="pull-left bt">
 			<%= link_to image_tag("logo2.png", :size => "45x45"), refinery.root_path %>
 			<%= link_to image_tag("logo1.png", :size => "185x74"), refinery.root_path, :style => "position:absolute; right:0; bottom:0; " %>
 		</div>
 		
-		<div id="menu_container" class="pull-right" class="bt">
+		<div id="menu_container" class="pull-right bt">
 		  	<%= render(:partial => "/refinery/menu", :locals => {
 	             :dom_id => 'menu',
 	             :css => 'menu'

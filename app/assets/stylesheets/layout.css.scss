@@ -6,10 +6,10 @@ $navbarBackground: #4080b7;
 $navbarBackgroundHighlight: #305e84;
 
 
-$global_width: 1000px;
+$global_width: 950px;
 
 
-//border for boundary test
+//border for boundary tests
 .bt {
 	border:1px solid pink;
 }
@@ -39,54 +39,14 @@ html, body {
 }
 
 
-#page {
-	margin-top: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: $global_width;
-	background-image: url('pattern.png');
-	background-color: white;
-	margin-left: auto;
-  	margin-right: auto;
-  	border: 1px solid #babab3;
-
-
-
-  	h1 {
-  		margin-top: 0px;
-  		font-size: 20px;
-  		border-bottom: 1px solid #eeeeee;
-  	}
-
-  	h2 {
-  		//margin-top: 40px;
-  		font-size: 14px;
-  	}
-
-  	h3 {
-  		padding-top: 30px;
-  		font-size: 14px;
-  		
-  		img {
-	  		padding-top: 30px;
-  		}
-  	}
-
-  	p {
-  		line-height: 25px;
-  	}
-}
-
-
 .navbar-inner {
 	border-bottom: 1px solid #bbdcf9;
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
 	        border-radius: 0;
 	
-
 	.container {
-		width: $global_width;
+		width: 950px;
 
 		#logo {
 			position: relative;
@@ -98,8 +58,10 @@ html, body {
 		#menu_container {
 			position: absolute;
 			right: 0;
+			margin-right: 0;
 			top: 0;
 			margin-top: 50px;
+			padding-right: 0;
 
 
 			#menu ul /*Container ul*/ {
@@ -116,12 +78,9 @@ html, body {
 			#menu ul li a { /*The buttons you'll always see*/
 				display:inline-block;
 				padding:3px 10px;
-				//background:black;
-				//border:1px solid white;
 				color: #fff;
 				font-size: 15px;
 				padding-bottom: 10px; 
-				//font-weight: bold;
 			}
 
 
@@ -136,7 +95,6 @@ html, body {
 				display:none; /*Hides the dropdown menu's if they arent hovered over*/
 				background-color: #fff;
 				margin-left: 10px;
-				//margin-top: 10px;
 			  	border: 1px solid #babab3;
 			}
 
@@ -160,16 +118,52 @@ html, body {
 
 
 
+#page {
+	margin-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 950px;
+	background-image: url('pattern.png');
+	background-color: white;
+	margin-left: auto;
+  	margin-right: auto;
+  	border: 1px solid #babab3;
+
+
+
+  	h1 {
+  		margin-top: 0px;
+  		font-size: 20px;
+  		border-bottom: 1px solid #eeeeee;
+  	}
+
+  	h2 {
+  		font-size: 14px;
+  	}
+
+  	h3 {
+  		padding-top: 30px;
+  		font-size: 14px;
+  		
+  		img {
+	  		padding-top: 30px;
+  		}
+  	}
+
+  	p {
+  		line-height: 25px;
+  	}
+}
+
+
 footer {
 	width:$global_width;
 	margin-top:10px;
 	margin-left: auto;
   	margin-right: auto;
-  	//border-top: 1px solid #eeeeee;
   	bottom: 0;
 
   	p {
-  		//border-top: 1px solid #fff;
   		padding-top:10px;
   		font-size:11px;
   	}
