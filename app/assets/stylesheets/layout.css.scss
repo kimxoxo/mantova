@@ -58,7 +58,7 @@ html, body {
 		#menu_container {
 			position: absolute;
 			right: 0;
-			margin-right: 0;
+			margin-right: -10px;
 			top: 0;
 			margin-top: 50px;
 			padding-right: 0;
@@ -79,7 +79,7 @@ html, body {
 				display:inline-block;
 				padding:3px 10px;
 				color: #fff;
-				font-size: 15px;
+				font-size: 13px;
 				padding-bottom: 10px; 
 			}
 
@@ -111,6 +111,7 @@ html, body {
 				display: inline-block;
 				padding: 3px 10px;
 				color: #000;
+				font-size: 12px;
 			}
 		}
 	}
@@ -122,7 +123,7 @@ html, body {
 	margin-top: 30px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: 950px;
+	width: 920px;
 	background-image: url('pattern.png');
 	background-color: white;
 	margin-left: auto;
