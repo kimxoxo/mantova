@@ -46,7 +46,7 @@ html, body {
 	        border-radius: 0;
 	
 	.container {
-		width: 950px;
+		width: $global_width;
 
 		#logo {
 			position: relative;
@@ -58,7 +58,6 @@ html, body {
 		#menu_container {
 			position: absolute;
 			right: 0;
-			margin-right: -10px;
 			top: 0;
 			margin-top: 50px;
 			padding-right: 0;
@@ -158,14 +157,34 @@ html, body {
 
 
 footer {
-	width:$global_width;
-	margin-top:10px;
+	width: $global_width;
+	margin-top: 10px;
 	margin-left: auto;
   	margin-right: auto;
   	bottom: 0;
 
   	p {
-  		padding-top:10px;
-  		font-size:11px;
+  		padding-top: 7px;
+  		padding-left: 10px;
+  		font-size: 11px;
+		color: #666;
+
+
+  		span {
+  			float: right;
+  			padding-right: 10px;
+
+  			a {
+ 				color: #666;
+
+  				img {
+  					padding-left: 5px;
+  				}
+  			}
+  			
+  			a:hover {
+  				text-decoration: none;
+  			}
+  		}
   	}
 }
