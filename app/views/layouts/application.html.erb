@@ -3,13 +3,27 @@
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <%= render '/refinery/head' %>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+      (document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <%= site_bar -%>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container">
       <header id="header">
         <%= render '/refinery/header' -%>
       </header>
-      <section id="page" class="">
+              
+      <section id="page" class="">    
         <%= yield %>
       </section>
       <footer class="">
