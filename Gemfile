@@ -6,6 +6,8 @@ gem 'rake', '10.0.3'
 #gem 'therubyracer'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+#gem 'refinerycms-portfolio', :git => 'git://github.com/refinery/refinerycms-portfolio.git', :branch => '2-0-stable'
+
 
 group :development, :test do
   gem 'sqlite3'
